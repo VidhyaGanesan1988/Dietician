@@ -1,0 +1,135 @@
+[INFO ] 2022-06-14 10:59:58,166 BaseClass.user_is_on_home_page_after_login() - User is on Home Page
+[INFO ] 2022-06-14 10:59:58,176 BaseClass.homepagevalidation() - User is not on Home Page after login
+[INFO ] 2022-06-14 10:59:58,181 BaseClass.user_clicks_on_my_patients_tab() - Verify and click My Patients Link
+[INFO ] 2022-06-14 10:59:58,181 BaseClass.user_clicks_on_my_patients_tab() - User clicked MyPatients Link
+[INFO ] 2022-06-14 10:59:58,182 BaseClass.page_displays_breadcrumbs_as_dietician_softaware_my_patients() - Verify secondary navigation path
+[INFO ] 2022-06-14 10:59:58,183 BaseClass.breadcrumbvalidation() - The secndary navigation path Dietician Softaware/My Patients is diaplayed
+[INFO ] 2022-06-14 10:59:58,232 BaseClass.user_is_on_home_page_after_login() - User is on Home Page
+[INFO ] 2022-06-14 10:59:58,233 BaseClass.homepagevalidation() - User is not on Home Page after login
+[INFO ] 2022-06-14 10:59:58,234 BaseClass.user_clicks_on_my_patients_tab() - Verify and click My Patients Link
+[INFO ] 2022-06-14 10:59:58,236 BaseClass.user_clicks_on_my_patients_tab() - User clicked MyPatients Link
+[INFO ] 2022-06-14 10:59:58,240 BaseClass.page_title_is_displayed_as() - Verify Mypatients title
+[INFO ] 2022-06-14 10:59:58,240 BaseClass.verifyMyPageTitle() - My Patients title is not displayed
+[INFO ] 2022-06-14 10:59:58,304 BaseClass.user_is_on_home_page_after_login() - User is on Home Page
+[INFO ] 2022-06-14 10:59:58,305 BaseClass.homepagevalidation() - User is not on Home Page after login
+[INFO ] 2022-06-14 10:59:58,306 BaseClass.user_clicks_on_my_patients_tab() - Verify and click My Patients Link
+[INFO ] 2022-06-14 10:59:58,307 BaseClass.user_clicks_on_my_patients_tab() - User clicked MyPatients Link
+[INFO ] 2022-06-14 10:59:58,309 BaseClass.search_button_is_disaplyed_as() - Veriying Search Button & Text
+[INFO ] 2022-06-14 10:59:58,310 BaseClass.verifysearchfeature() - Search feature is not displayed
+[INFO ] 2022-06-14 10:59:58,368 BaseClass.user_is_on_home_page_after_login() - User is on Home Page
+[INFO ] 2022-06-14 10:59:58,368 BaseClass.homepagevalidation() - User is not on Home Page after login
+[INFO ] 2022-06-14 10:59:58,369 BaseClass.user_clicks_on_my_patients_tab() - Verify and click My Patients Link
+[INFO ] 2022-06-14 10:59:58,370 BaseClass.user_clicks_on_my_patients_tab() - User clicked MyPatients Link
+[INFO ] 2022-06-14 10:59:58,371 BaseClass.name_email_and_phone_number_filters_are_displayed() - Verifying textboxes in My Patients page
+[INFO ] 2022-06-14 10:59:58,371 BaseClass.textboxesvalidation() - Name, email and phone number filters are displayed
+[INFO ] 2022-06-14 10:59:58,433 BaseClass.user_is_on_view_patient_test_reports_page() - User is on View Patients Test Reports page
+[INFO ] 2022-06-14 10:59:58,437 BaseClass.user_clicks_on_view_pdf_button() - User clicks on the View PDF button
+[INFO ] 2022-06-14 10:59:58,438 BaseClass.pdf_is_opened_in_proper_readable_format() - PDF is opened in readable format
+[INFO ] 2022-06-14 10:59:58,475 BaseClass.user_has_clicked_view_pdf_button() - User clicks on the View PDF button
+[INFO ] 2022-06-14 10:59:58,476 BaseClass.user_is_on_pdf_file() - User is on PDF file
+[INFO ] 2022-06-14 10:59:58,477 BaseClass.patientdetails() - PDF displays patients details like  patient ID, name, email, address, phone number
+[INFO ] 2022-06-14 10:59:58,516 BaseClass.user_has_clicked_view_pdf_button() - User clicks on the View PDF button
+[INFO ] 2022-06-14 10:59:58,517 BaseClass.user_is_on_pdf_file() - User is on PDF file
+[INFO ] 2022-06-14 10:59:58,518 BaseClass.doctordetails() - PDF displays doctor details like doc ID, doctor name, email address, clinic/facility name, doctor's specialization
+[INFO ] 2022-06-14 10:59:58,556 BaseClass.user_has_clicked_view_pdf_button() - User clicks on the View PDF button
+[INFO ] 2022-06-14 10:59:58,558 BaseClass.user_is_on_pdf_file() - User is on PDF file
+[INFO ] 2022-06-14 10:59:58,559 BaseClass.healthdetails() - PDF displays health details like  list of conditions, preferences list, Co-morbidites
+[INFO ] 2022-06-14 10:59:58,608 BaseClass.user_has_clicked_view_pdf_button() - User clicks on the View PDF button
+[INFO ] 2022-06-14 10:59:58,610 BaseClass.user_is_on_pdf_file() - User is on PDF file
+[INFO ] 2022-06-14 10:59:58,611 BaseClass.dietdetails() - PDF displays diet menu for 7 days, any warning and comments mentioned by doctor
+[INFO ] 2022-06-14 10:59:58,665 BaseClass.user_has_hit_search_button() - User has hot search button without entering any detail in filter boxes
+[INFO ] 2022-06-14 10:59:58,666 BaseClass.patients_record_is_displayed() - Patient record verfication
+[INFO ] 2022-06-14 10:59:58,666 BaseClass.verifypatientrecord() - Records of all users get displayed
+[INFO ] 2022-06-14 10:59:58,667 BaseClass.each_patient_is_be_displayed() - Customer ID verfication
+[INFO ] 2022-06-14 10:59:58,668 BaseClass.verifycustomerid() - Customer id is not displayed under CustID column
+[INFO ] 2022-06-14 10:59:58,694 BaseClass.user_has_hit_search_button() - User has hot search button without entering any detail in filter boxes
+[INFO ] 2022-06-14 10:59:58,695 BaseClass.patients_record_is_displayed() - Patient record verfication
+[INFO ] 2022-06-14 10:59:58,695 BaseClass.verifypatientrecord() - Records of all users get displayed
+[INFO ] 2022-06-14 10:59:58,696 BaseClass.each_patient_is_dispalyed() - Patient name verfication
+[INFO ] 2022-06-14 10:59:58,697 BaseClass.verifypatientname() - Patient name is not displayed under Name column
+[INFO ] 2022-06-14 10:59:58,735 BaseClass.user_has_hit_search_button() - User has hot search button without entering any detail in filter boxes
+[INFO ] 2022-06-14 10:59:58,736 BaseClass.patients_record_is_displayed() - Patient record verfication
+[INFO ] 2022-06-14 10:59:58,737 BaseClass.verifypatientrecord() - Records of all users get displayed
+[INFO ] 2022-06-14 10:59:58,742 BaseClass.each_patient_and_is_dispalyed() - Patient details verfication
+[INFO ] 2022-06-14 10:59:58,768 BaseClass.user_has_hit_search_button() - User has hot search button without entering any detail in filter boxes
+[INFO ] 2022-06-14 10:59:58,770 BaseClass.user_clicks_on_view_previous_test_reports_button() - User clicks View Previous Test Reports page button
+[INFO ] 2022-06-14 10:59:58,771 BaseClass.verifyviewreporttitle() - User is not redirected to View Previuos Test Reports page
+[INFO ] 2022-06-14 10:59:58,806 BaseClass.user_has_hit_search_button() - User has hot search button without entering any detail in filter boxes
+[INFO ] 2022-06-14 10:59:58,811 BaseClass.user_clicks_on_view_previous_diet_plans_button() - User clicks View Previous Diet Plans page button
+[INFO ] 2022-06-14 10:59:58,812 BaseClass.verifyviewplantitle() - User is not redirected to Generated Diet Plans page
+[INFO ] 2022-06-14 10:59:58,872 BaseClass.user_has_hit_search_button() - User has hot search button without entering any detail in filter boxes
+[INFO ] 2022-06-14 10:59:58,876 BaseClass.user_clicks_on_create_new_report_or_plan_button() - User clicks Create New Report/Plan page button
+[INFO ] 2022-06-14 10:59:58,878 BaseClass.verifygeneratereport() - User is not redirected to Confirm Health Conditions and Generate a New Diet plan page
+[INFO ] 2022-06-14 10:59:58,919 BaseClass.user_clicks_on_button_view_previous_test_reports() - User clicks on button View Previous Test Reports
+[INFO ] 2022-06-14 10:59:58,920 BaseClass.user_is_on_view_patient_test_reports_page() - User is on View Patients Test Reports page
+[INFO ] 2022-06-14 10:59:58,921 BaseClass.breadcrumbsvalidation() - The secndary navigation path Dietician Softaware/View Previous Test Reports is displayed
+[INFO ] 2022-06-14 10:59:58,941 BaseClass.user_clicks_on_button_view_previous_test_reports() - User clicks on button View Previous Test Reports
+[INFO ] 2022-06-14 10:59:58,942 BaseClass.user_is_on_view_patient_test_reports_page() - User is on View Patients Test Reports page
+[INFO ] 2022-06-14 10:59:58,943 BaseClass.verifypagetitle() - View Previuos Test Reports page title is not displayed
+[INFO ] 2022-06-14 10:59:58,971 BaseClass.user_clicks_on_button_view_previous_test_reports() - User clicks on button View Previous Test Reports
+[INFO ] 2022-06-14 10:59:58,973 BaseClass.user_is_on_view_patient_test_reports_page() - User is on View Patients Test Reports page
+[INFO ] 2022-06-14 10:59:58,974 BaseClass.primaryinfovalidation() - Page displays primary information like patient Id  number, name, email address, Phone number, Address
+[INFO ] 2022-06-14 10:59:58,994 BaseClass.user_clicks_on_button_view_previous_test_reports() - User clicks on button View Previous Test Reports
+[INFO ] 2022-06-14 10:59:58,995 BaseClass.user_is_on_view_patient_test_reports_page() - User is on View Patients Test Reports page
+[INFO ] 2022-06-14 10:59:58,995 BaseClass.tableheadervalidation() - Table header displays column heading as Record number, Doc-ID, File Uploaded time, File/Report name, Identified health conditions
+[INFO ] 2022-06-14 10:59:59,014 BaseClass.user_clicks_on_button_view_previous_test_reports() - User clicks on button View Previous Test Reports
+[INFO ] 2022-06-14 10:59:59,016 BaseClass.user_is_on_view_patient_test_reports_page() - User is on View Patients Test Reports page
+[INFO ] 2022-06-14 10:59:59,016 BaseClass.tablecontentsvalidation() - Table contents displays document number, View PDF,  Uploaded time, File name, Health conditions of each patient
+[INFO ] 2022-06-14 10:59:59,070 BaseClass.user_clicks_on_button_view_previous_test_reports() - User clicks on button View Previous Test Reports
+[INFO ] 2022-06-14 10:59:59,072 BaseClass.user_is_on_view_patient_test_reports_page() - User is on View Patients Test Reports page
+[INFO ] 2022-06-14 10:59:59,074 BaseClass.signoutbtnverification() - Signout button is not dispalyed in the page
+[INFO ] 2022-06-14 10:59:59,096 BaseClass.user_clicks_on_button_view_previous_test_reports() - User clicks on button View Previous Test Reports
+[INFO ] 2022-06-14 10:59:59,097 BaseClass.user_is_on_view_patient_test_reports_page() - User is on View Patients Test Reports page
+[INFO ] 2022-06-14 10:59:59,098 BaseClass.only_three_records_displayed_in_one_page() - Three records per page is displayed when pagination number is clicked
+[INFO ] 2022-06-14 10:59:59,117 BaseClass.user_clicks_on_button_view_previous_test_reports() - User clicks on button View Previous Test Reports
+[INFO ] 2022-06-14 10:59:59,118 BaseClass.user_is_on_view_patient_test_reports_page() - User is on View Patients Test Reports page
+[INFO ] 2022-06-14 10:59:59,119 BaseClass.number_of_pages_containing_each_three_records_is_displayed() - Total number of pages in pagination is dispalyed
+[INFO ] 2022-06-14 10:59:59,185 BaseClass.user_is_on_my_patients_page() - User is on My Patients page
+[INFO ] 2022-06-14 10:59:59,186 BaseClass.user_clicks_search_button_without_entering_details() - User Clicks search Button
+[INFO ] 2022-06-14 10:59:59,186 BaseClass.records_of_all_users_are_displayed() - Verifying all the user records
+[INFO ] 2022-06-14 10:59:59,187 BaseClass.usersdataverfication() - All user records are displayed in My patients page
+[INFO ] 2022-06-14 10:59:59,201 BaseClass.user_is_on_my_patients_page() - User is on My Patients page
+[INFO ] 2022-06-14 10:59:59,202 BaseClass.user_enters_valid_in_name_filter_box() - User enters valid name in name filter and clicks search
+[INFO ] 2022-06-14 10:59:59,202 BaseClass.records_of_requested_user_is_displayed() - Verifying user record
+[INFO ] 2022-06-14 10:59:59,202 BaseClass.userrecordverification() - Requested user record is displayed in My patients page
+[INFO ] 2022-06-14 10:59:59,221 BaseClass.user_is_on_my_patients_page() - User is on My Patients page
+[INFO ] 2022-06-14 10:59:59,222 BaseClass.user_enters_valid_in_email_filter_box() - User enters valid email address in email filter and clicks search
+[INFO ] 2022-06-14 10:59:59,222 BaseClass.records_of_requested_user_is_displayed() - Verifying user record
+[INFO ] 2022-06-14 10:59:59,223 BaseClass.userrecordverification() - Requested user record is displayed in My patients page
+[INFO ] 2022-06-14 10:59:59,243 BaseClass.user_is_on_my_patients_page() - User is on My Patients page
+[INFO ] 2022-06-14 10:59:59,245 BaseClass.user_enters_valid_in_phone_number_filter_box() - User enters valid phone number in phone filter and clicks search
+[INFO ] 2022-06-14 10:59:59,245 BaseClass.records_of_requested_user_is_displayed() - Verifying user record
+[INFO ] 2022-06-14 10:59:59,246 BaseClass.userrecordverification() - Requested user record is displayed in My patients page
+[INFO ] 2022-06-14 10:59:59,286 BaseClass.user_is_on_my_patients_page() - User is on My Patients page
+[INFO ] 2022-06-14 10:59:59,288 BaseClass.user_enters_valid_with_valid_in_name_and_phone_number_filter_boxes() - User enters valid name and phone number in name and phone number filter boxes and clicks search
+[INFO ] 2022-06-14 10:59:59,291 BaseClass.records_of_requested_user_is_displayed() - Verifying user record
+[INFO ] 2022-06-14 10:59:59,292 BaseClass.userrecordverification() - Requested user record is displayed in My patients page
+[INFO ] 2022-06-14 10:59:59,323 BaseClass.user_is_on_my_patients_page() - User is on My Patients page
+[INFO ] 2022-06-14 10:59:59,324 BaseClass.user_enters_valid_with_valid_in_name_and_email_filter_boxes() - User enters valid name and email address in name and email filter boxes and clicks search
+[INFO ] 2022-06-14 10:59:59,325 BaseClass.records_of_requested_user_is_displayed() - Verifying user record
+[INFO ] 2022-06-14 10:59:59,326 BaseClass.userrecordverification() - Requested user record is displayed in My patients page
+[INFO ] 2022-06-14 10:59:59,341 BaseClass.user_is_on_my_patients_page() - User is on My Patients page
+[INFO ] 2022-06-14 10:59:59,342 BaseClass.user_enters_valid_with_valid_in_email_and_phone_number_filter_boxes() - User enters valid email address and phone number in email and phone filter boxes and clicks search
+[INFO ] 2022-06-14 10:59:59,343 BaseClass.records_of_requested_user_is_displayed() - Verifying user record
+[INFO ] 2022-06-14 10:59:59,343 BaseClass.userrecordverification() - Requested user record is displayed in My patients page
+[INFO ] 2022-06-14 10:59:59,356 BaseClass.user_is_on_my_patients_page() - User is on My Patients page
+[INFO ] 2022-06-14 11:00:00,326 BaseClass.user_enters_invalid_phone_number_from_and_in_phone_number_filter_box() - User enter invalid phone number and clicks search
+[INFO ] 2022-06-14 11:00:00,327 BaseClass.error_message_is_displayed() - Error message validation
+[INFO ] 2022-06-14 11:00:00,328 BaseClass.verifyErrorMessage() - Invalid input is not entered in filter boxes
+[INFO ] 2022-06-14 11:00:00,353 BaseClass.user_is_on_my_patients_page() - User is on My Patients page
+[INFO ] 2022-06-14 11:00:00,481 BaseClass.user_enters_invalid_email_address_from_and_in_email_filter_box() - User enter invalid email address and clicks search
+[INFO ] 2022-06-14 11:00:00,482 BaseClass.error_message_is_displayed() - Error message validation
+[INFO ] 2022-06-14 11:00:00,483 BaseClass.verifyErrorMessage() - Invalid input is not entered in filter boxes
+[INFO ] 2022-06-14 11:00:00,510 BaseClass.user_is_on_my_patients_page() - User is on My Patients page
+[INFO ] 2022-06-14 11:00:00,625 BaseClass.user_enters_invalid_name_from_and_in_name_filter_box() - User enter invalid email address and clicks search
+[INFO ] 2022-06-14 11:00:00,626 BaseClass.error_message_is_displayed() - Error message validation
+[INFO ] 2022-06-14 11:00:00,627 BaseClass.verifyErrorMessage() - Invalid input is not entered in filter boxes
+[INFO ] 2022-06-14 11:00:00,670 BaseClass.user_is_on_my_patients_page() - User is on My Patients page
+[INFO ] 2022-06-14 11:00:00,680 BaseClass.user_clicks_search_button_with_or_without_entering_details() - User clicks search button with/without deails in filter boxes
+[INFO ] 2022-06-14 11:00:00,681 BaseClass.table_header_should_display_number_of_items_found() - Table header diaplays 5 items found, displaying 1 to 5
+[INFO ] 2022-06-14 11:00:00,709 BaseClass.user_is_on_my_patients_page() - User is on My Patients page
+[INFO ] 2022-06-14 11:00:00,710 BaseClass.user_clicks_search_button_with_or_without_entering_details() - User clicks search button with/without deails in filter boxes
+[INFO ] 2022-06-14 11:00:00,710 BaseClass.columntableverification() - Patient data table dispalys columns name Record Number, Cust ID, Name, Details, Last Visit and Actions
+[INFO ] 2022-06-14 11:00:00,741 BaseClass.user_is_on_my_patients_page() - User is on My Patients page
+[INFO ] 2022-06-14 11:00:00,742 BaseClass.user_clicks_search_button_with_or_without_entering_details() - User clicks search button with/without deails in filter boxes
+[INFO ] 2022-06-14 11:00:00,744 BaseClass.actioncolumnbuttonvalidation() - Action column displays View Previous Test Report, View Previous Diet Plans, Create New Report or Plan buttons

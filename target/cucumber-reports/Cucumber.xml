@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="36" time="4.201">
+<testcase classname="My Patients page elements" name="Verifying breadcrumbs in the page" time="1.053">
+<system-out><![CDATA[Given User is on home page "Home" after login...............................passed
+When User clicks on My Patients tab.........................................passed
+Then page displays breadcrumbs as Dietician Softaware-My Patients...........passed
+]]></system-out>
+</testcase>
+<testcase classname="My Patients page elements" name="Validating the My patients page title" time="0.014">
+<system-out><![CDATA[Given User is on home page "Home" after login...............................passed
+When User clicks on My Patients tab.........................................passed
+Then page title is displayed as "My Patients"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="My Patients page elements" name="Verifying the search button feature" time="0.013">
+<system-out><![CDATA[Given User is on home page "Home" after login...............................passed
+When User clicks on My Patients tab.........................................passed
+Then search button is disaplyed as "Search".................................passed
+]]></system-out>
+</testcase>
+<testcase classname="My Patients page elements" name="Verifying the textbox feature" time="0.007">
+<system-out><![CDATA[Given User is on home page "Home" after login...............................passed
+When User clicks on My Patients tab.........................................passed
+Then Name, email and phone number filters are displayed.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="PDF File" name="Verify View PDF action" time="0.014">
+<system-out><![CDATA[Given User is on View Patient Test Reports page.............................passed
+When User clicks on View PDF button.........................................passed
+Then PDF is opened in proper readable format................................passed
+]]></system-out>
+</testcase>
+<testcase classname="PDF File" name="Verify contents of PDF file" time="0.008">
+<system-out><![CDATA[Given User has clicked view PDF button......................................passed
+When User is on PDF file....................................................passed
+Then Patient details is displayed in PDF....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="PDF File" name="Verify contents of PDF file 2" time="0.006">
+<system-out><![CDATA[Given User has clicked view PDF button......................................passed
+When User is on PDF file....................................................passed
+Then Doctor details is displayed in PDF.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="PDF File" name="Verify contents of PDF file 3" time="0.007">
+<system-out><![CDATA[Given User has clicked view PDF button......................................passed
+When User is on PDF file....................................................passed
+Then PDF displays list of conditions, preferences list, Co-morbidites.......passed
+]]></system-out>
+</testcase>
+<testcase classname="PDF File" name="Verify contents of PDF file 4" time="0.009">
+<system-out><![CDATA[Given User has clicked view PDF button......................................passed
+When User is on PDF file....................................................passed
+Then PDF displays diet menu for seven days, any warning and comments mentioned by doctor.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Patients Information" name="Verify each patient has cutomer ID" time="0.015">
+<system-out><![CDATA[Given User has hit search button............................................passed
+When Patients record is displayed...........................................passed
+Then Each patient "cust ID" is be displayed.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Patients Information" name="Verify each patient has Name" time="0.01">
+<system-out><![CDATA[Given User has hit search button............................................passed
+When Patients record is displayed...........................................passed
+Then Each patient "Name" is dispalyed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Patients Information" name="Verify each patient has Details" time="0.011">
+<system-out><![CDATA[Given User has hit search button............................................passed
+When Patients record is displayed...........................................passed
+Then Each patient "email", "phone number" and "location" is dispalyed.......passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Patients Information" name="Verify view patients previuos test reports action button" time="0.007">
+<system-out><![CDATA[Given User has hit search button............................................passed
+When User clicks on View Previous Test Reports button.......................passed
+Then User is redirected to View Previous Test Reports "page"................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Patients Information" name="Verify view patients previuos diet plans action button" time="0.012">
+<system-out><![CDATA[Given User has hit search button............................................passed
+When User clicks on View Previous Diet Plans button.........................passed
+Then User is redirected to Generated Diet Plans "page"......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Patients Information" name="Verify create new report or plan action button" time="0.012">
+<system-out><![CDATA[Given User has hit search button............................................passed
+When User clicks on Create New Report or Plan button........................passed
+Then User is redirected to Confirm Health Conditions and Generate a New Diet plan "page".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify View Previuos Test Reports Page" name="Verify breadcrumbs on test report page" time="0.009">
+<system-out><![CDATA[Given User clicks on button View Previous Test Reports......................passed
+When User is on View Patient Test Reports page..............................passed
+Then page displays breadcrumbs as Dietician Softaware- View Recent Test Reports.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify View Previuos Test Reports Page" name="Verify page title" time="0.005">
+<system-out><![CDATA[Given User clicks on button View Previous Test Reports......................passed
+When User is on View Patient Test Reports page..............................passed
+Then Title is displayed as "title" View Patient Test Reports................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify View Previuos Test Reports Page" name="Verify primary information of a user" time="0.016">
+<system-out><![CDATA[Given User clicks on button View Previous Test Reports......................passed
+When User is on View Patient Test Reports page..............................passed
+Then Page displays primary information like patient Id  number, name, email address, Phone number, Address.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify View Previuos Test Reports Page" name="Verify table headers" time="0.005">
+<system-out><![CDATA[Given User clicks on button View Previous Test Reports......................passed
+When User is on View Patient Test Reports page..............................passed
+Then Table displays column heading as Record number, Doc-ID, File Uploaded time, File/Report name, Identified health conditions.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify View Previuos Test Reports Page" name="Verify table contents" time="0.006">
+<system-out><![CDATA[Given User clicks on button View Previous Test Reports......................passed
+When User is on View Patient Test Reports page..............................passed
+Then Table content displays document number, view PDF, uploaded time, file name, health condition of each patient.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify View Previuos Test Reports Page" name="Verify Signout button" time="0.009">
+<system-out><![CDATA[Given User clicks on button View Previous Test Reports......................passed
+When User is on View Patient Test Reports page..............................passed
+Then Signout button is displayed in the page as "SIGNOUT"...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify View Previuos Test Reports Page" name="Verify pagination" time="0.006">
+<system-out><![CDATA[Given User clicks on button View Previous Test Reports......................passed
+When User is on View Patient Test Reports page..............................passed
+Then only three records displayed in one page...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify View Previuos Test Reports Page" name="Verify pagination navigation" time="0.005">
+<system-out><![CDATA[Given User clicks on button View Previous Test Reports......................passed
+When User is on View Patient Test Reports page..............................passed
+Then Number of pages containing each three records is displayed.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Search patients records" name="Verifying search patients option" time="0.035">
+<system-out><![CDATA[Given User is on my patients page...........................................passed
+When User clicks search button without entering details.....................passed
+Then Records of all users are displayed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search patients records" name="Verifying search patients option by name filter" time="0.004">
+<system-out><![CDATA[Given User is on my patients page...........................................passed
+When User enters valid "name" in name filter box............................passed
+Then Records of requested user is displayed.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search patients records" name="Verifying search patients option by email filter" time="0.007">
+<system-out><![CDATA[Given User is on my patients page...........................................passed
+When User enters valid "email address" in email filter box..................passed
+Then Records of requested user is displayed.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search patients records" name="Verifying search patients option by phone number filter" time="0.006">
+<system-out><![CDATA[Given User is on my patients page...........................................passed
+When User enters valid "phone number" in phone number filter box............passed
+Then Records of requested user is displayed.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search patients records" name="Verifying search patients option by name and phone number filter" time="0.013">
+<system-out><![CDATA[Given User is on my patients page...........................................passed
+When User enters valid "name" with valid "phone number" in name and phone number filter boxes.passed
+Then Records of requested user is displayed.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search patients records" name="Verifying search patients option by name and email filter" time="0.007">
+<system-out><![CDATA[Given User is on my patients page...........................................passed
+When User enters valid "name" with valid "email address" in name and email filter boxes.passed
+Then Records of requested user is displayed.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search patients records" name="Verifying search patients option by email and phone number filter" time="0.005">
+<system-out><![CDATA[Given User is on my patients page...........................................passed
+When User enters valid "email address" with valid "phone number" in email and phone number filter boxes.passed
+Then Records of requested user is displayed.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search patients records" name="Verifying search patients options by entering invalid phone number" time="0.975">
+<system-out><![CDATA[Given User is on my patients page...........................................passed
+When User enters invalid phone number from "invalidphone" and 0 in phone number filter box.passed
+Then Error message "Invalid input" is displayed.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search patients records" name="Verifying search patients options by entering invalid email address" time="0.134">
+<system-out><![CDATA[Given User is on my patients page...........................................passed
+When User enters invalid email address from "invalidemail" and 0 in email filter box.passed
+Then Error message "Invalid input" is displayed.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search patients records" name="Verifying search patients options by entering invalid name" time="0.125">
+<system-out><![CDATA[Given User is on my patients page...........................................passed
+When User enters invalid name from "invalidname" and 0 in name filter box...passed
+Then Error message "Invalid input" is displayed.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search patients records" name="Verifying table header displayed" time="0.016">
+<system-out><![CDATA[Given User is on my patients page...........................................passed
+When User clicks search button with or without entering details.............passed
+Then Table header should display number of items found......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search patients records" name="Verifying column name in patients data table" time="0.008">
+<system-out><![CDATA[Given User is on my patients page...........................................passed
+When User clicks search button with or without entering details.............passed
+Then Patient data table dispalys columns name Record Number, Cust ID, Name, Details, Last Visit and Actions.passed
+]]></system-out>
+</testcase>
+<testcase classname="Search patients records" name="Verifying action column buttons" time="0.008">
+<system-out><![CDATA[Given User is on my patients page...........................................passed
+When User clicks search button with or without entering details.............passed
+Then Action column displays View Previous Test Report, View Previous Diet Plans, Create New Report or Plan buttons.passed
+]]></system-out>
+</testcase>
+</testsuite>
